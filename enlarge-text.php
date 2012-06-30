@@ -4,7 +4,7 @@ Plugin Name: Enlarge Text
 Plugin URI: http://wordpress.org/extend/plugins/enlarge-text/
 Description: Give your users a widget to enlarge the text on your site.  Is there some text that you don't want to enlarge?  Just declare a size for it in pixels in your stylesheet and this plugin will not affect it.
 Author: Scott Fennell
-Version: 1.0
+Version: 1.2
 Author URI: www.scottfennell.com/wordpress
 */
 
@@ -35,7 +35,7 @@ Author URI: www.scottfennell.com/wordpress
 
 
 
-add_action(wp_head, enlarge_text);
+add_action('wp_head', 'enlarge_text');
 
 
 function enlarge_text() {?>
