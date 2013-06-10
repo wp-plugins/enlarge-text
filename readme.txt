@@ -2,8 +2,8 @@
 Contributors: scofennellgmailcom
 Tags: enlarge text, text sizer, text resize
 Requires at least: 2.9
-Tested up to: 3.3.2
-Stable tag: 1.1
+Tested up to: 3.5.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,12 +31,18 @@ It Gives your users a widget to enlarge the text on your site.
 
 It can't change text for which you declare a size in pixels.
 
+= How does it output? =
+
+Via widget or shortcode.  Both take arguments for the labels of each size and also the default text size when first visiting the page. For example:[enlarge_text small='S' medium='M' large='L' default_value='medium']
+
 == Screenshots ==
 
 1. See the menu here.  The plugin adds a "current" class to whichever link is currently active.  Style the links however you want to!
 
 == Changelog ==
 
+= 1.4 =
+* Added widget options for labels and default size.  Fixed jQuery conflict.
 
 = 1.1 =
 * Added widget.
