@@ -1,5 +1,5 @@
 === Enlarge Text ===
-Contributors: scofennellgmailcom
+Contributors: scofennell@gmail.com
 Tags: enlarge text, text sizer, text resize
 Requires at least: 2.9
 Tested up to: 3.5.1
